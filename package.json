@@ -11,5 +11,8 @@
   "dependencies": {
     "puppeteer": "^4.0.0",
     "readline-sync": "^1.4.10"
+  },
+  "bin": {
+    "bot-correios-rastreio": "./bot-correios-rastreio.js"
   }
 }
