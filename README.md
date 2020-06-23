@@ -1,4 +1,4 @@
-# Script para automatizar a geração de boletos
+# Bot para rastrear entregas do Correios
 
 
 ### Instalação
@@ -8,7 +8,7 @@ Para utilizar esse script é necessário ter [Node.js](https://nodejs.org/) prev
 Após fazer um clone do projeto ou download do zip, acessar o diretório do mesmo e instalar suas as dependências, seguindo os comandos abaixo
 
 ```sh
-$ cd bot-boleto
+$ cd bot-correios-rastreio
 $ npm install
 ```
 
@@ -16,13 +16,13 @@ $ npm install
 Para utiliza basta rodar o comando abaixo
 
 ```sh
-$ node bot_cednet_boleto
+$ node bot-correios-rastreio
 ```
 
 Ou, caso deseje tudo em um único comando...
 
 ```sh
-$ node bot_cednet_boleto seu_cpf data_vencimento
+$ node bot-correios-rastreio codigo_rastreio
 ```
 
 ### Adicionar ao terminal/cmd
