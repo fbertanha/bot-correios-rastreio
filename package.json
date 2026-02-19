@@ -9,7 +9,7 @@
   "author": "Felipe Bertanha",
   "license": "ISC",
   "dependencies": {
-    "puppeteer": "^4.0.0",
+    "puppeteer": "^24.37.5",
     "readline-sync": "^1.4.10"
   },
   "bin": {
